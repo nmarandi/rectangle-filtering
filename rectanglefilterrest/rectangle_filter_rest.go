@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	"rectanglefilter"
+	"github.com/nmarandi/rectangle-filtering/rectanglefilter"
 
 	"github.com/ant0ine/go-json-rest/rest"
 )
