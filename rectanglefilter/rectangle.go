@@ -31,7 +31,7 @@ func collided(first Rectangle, second Rectangle) bool {
 		return false // "second" is up
 	}
 	if second.Y+second.Height < first.Y {
-		return false // "other" is down
+		return false // "second" is down
 	}
 	return true
 }
